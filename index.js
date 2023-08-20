@@ -1,5 +1,10 @@
-const allTags = document.getElementsByClassName("map_towns");
-for (let item of allTags) {
-  console.log(item, 11);
-}
-console.log(allTags, "idTag");
+setTimeout(() => {
+  const allTags = document.getElementsByClassName("owned");
+  for (let item of allTags) {
+    setTimeout(() => {
+      item.click();
+      console.log(11)
+    }, 500);
+    console.log(item, 1);
+  }
+}, 3000);
