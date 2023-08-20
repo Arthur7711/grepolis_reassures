@@ -1,2 +1,5 @@
-const allTags = document.getElementsByTagName("a");
-console.log("allTags", allTags);
+const allTags = document.getElementsByClassName("map_towns");
+for (let item of allTags) {
+  console.log(item, 11);
+}
+console.log(allTags, "idTag");
